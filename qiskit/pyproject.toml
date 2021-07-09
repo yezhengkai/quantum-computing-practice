@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "qiskit_practice"
+version = "0.1.0"
+description = ""
+authors = ["Zheng-Kai Ye <supon3060@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+qiskit = {extras = ["visualization"], version = "^0.27.0"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
